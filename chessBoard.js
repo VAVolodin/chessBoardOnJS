@@ -84,6 +84,7 @@
         
         function clearBoard() {
             btn.textContent = "Show it Again";
+            board.style.boxShadow = "0 0 0 0";
             board.innerHTML = "";
             board.remove();
             btn.removeEventListener("click", clearBoard);
