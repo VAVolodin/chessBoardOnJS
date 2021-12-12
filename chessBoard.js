@@ -6,7 +6,7 @@
 // document.body.innerHTML = "";
         // create parent DOM
         document.write(
-            '<html><head><link rel="shortcut icon" href="https://media.flaticon.com/dist/min/img/favicon.ico"/><title>Five in a row</title></head><body><header><h1>Chess Board on JS</h1><button>Show Board</button></header></body></html>'
+            '<html><head><link rel="shortcut icon" href="https://media.flaticon.com/dist/min/img/favicon.ico"/><title>Chess Board</title></head><body><header><h1>Chess Board on JS</h1><button>Show Board</button></header></body></html>'
         );
                 // DOM styling
         const header = document.querySelector("header");
